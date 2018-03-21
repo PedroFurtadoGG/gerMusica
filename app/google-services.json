@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "82922171666",
+    "firebase_url": "https://gerenciador-de-musicas-b8483.firebaseio.com",
+    "project_id": "gerenciador-de-musicas-b8483",
+    "storage_bucket": "gerenciador-de-musicas-b8483.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82922171666:android:aeb6229c7677160d",
+        "android_client_info": {
+          "package_name": "br.com.peedro.germusica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82922171666-2j1k26d1kadus7jenpvgr5daj8kqj057.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsj63MLfl-ZPrGTTMXyh8zFlFQMBpnVz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82922171666:android:453c8bcfb66d91f9",
+        "android_client_info": {
+          "package_name": "germusica.peedro.com.br.germusica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82922171666-oacmjos24aiaa30j9o5t6ja88o63bohl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "germusica.peedro.com.br.germusica",
+            "certificate_hash": "3f94a423cdacf82ee9b98589ce7a422dc04a7ade"
+          }
+        },
+        {
+          "client_id": "82922171666-2j1k26d1kadus7jenpvgr5daj8kqj057.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsj63MLfl-ZPrGTTMXyh8zFlFQMBpnVz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82922171666-2j1k26d1kadus7jenpvgr5daj8kqj057.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
