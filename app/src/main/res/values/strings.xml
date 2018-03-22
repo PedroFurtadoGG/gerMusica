@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">germusica</string>
+    <array name="genres">
+        <item>Rock</item>
+        <item>Punk</item>
+        <item>New Age</item>
+        <item>Blues</item>
+    </array>
 </resources>
+
