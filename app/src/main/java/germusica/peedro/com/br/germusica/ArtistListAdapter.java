@@ -11,6 +11,7 @@ import android.widget.TextView;
 import java.util.List;
 
 public class ArtistListAdapter extends ArrayAdapter<Artist> {
+
     private Activity context;
     private List<Artist> artistList;
 
@@ -25,18 +26,17 @@ public class ArtistListAdapter extends ArrayAdapter<Artist> {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         LayoutInflater inflater = context.getLayoutInflater();
+
         View listViewItem = inflater.inflate(R.layout.layout_artist_item, null, true);
 
-        TextView textViewName = listViewItem.findViewById(R.id.textViewName);
-        TextView textViewGenre = listViewItem.findViewById(R.id.textViewGenre);
+        TextView textViewName = (TextView) listViewItem.findViewById(R.id.textViewName);
+        TextView textViewGenre = (TextView) listViewItem.findViewById(R.id.textViewGenre);
 
         Artist artist = artistList.get(position);
 
         textViewName.setText(artist.getArtistName());
         textViewGenre.setText(artist.getArtistGenre());
 
-
         return listViewItem;
     }
-
 }
