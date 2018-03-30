@@ -32,10 +32,12 @@
         android:id="@+id/buttonAddArtist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/spinnerGenres"
-        android:layout_marginTop="17dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginRight="204dp"
+        android:layout_marginTop="19dp"
         android:text="ADD ARTIST" />
 
     <ListView
@@ -45,6 +47,17 @@
         android:layout_below="@+id/buttonAddArtist"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/buttonGoG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listViewArtists"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="GO TO GENRES" />
 
 
 </RelativeLayout>

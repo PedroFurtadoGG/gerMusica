@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="germusica.peedro.com.br.germusica.AddTrackActivity">
+    tools:context="germusica.peedro.com.br.germusica.AddGenreActivity">
+
 
     <TextView
         android:id="@+id/textViewGenreName"
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/editTextTrackName"
+        android:id="@+id/editTextGenreName"
         android:layout_below="@+id/textViewGenreName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,33 +24,27 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="19dp"
         android:ems="10"
-        android:hint="Enter track name"
-        android:inputType="textPersonName" />
-
-    <SeekBar
-        android:id="@+id/seekBarRating"
-        android:max="5"
-        android:layout_below="@+id/editTextTrackName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:hint="Enter genre name"
+        android:inputType="textGenreName" />
 
     <Button
-        android:id="@+id/buttonAddTrack"
+        android:id="@+id/buttonAddGenre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/seekBarRating"
+        android:layout_below="@+id/editTextGenreName"
         android:layout_marginTop="17dp"
-        android:text="ADD TRACK" />
+        android:text="ADD GENRE" />
 
     <ListView
-        android:id="@+id/listViewTracks"
+        android:id="@+id/listViewGenres"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonAddTrack"
+        android:layout_below="@+id/buttonAddGenre"
         android:layout_marginTop="13dp" />
+
 
 </RelativeLayout>
