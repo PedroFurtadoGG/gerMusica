@@ -6,9 +6,9 @@ public class Genre {
     public String genreID;
     public String genreName;
 
-    public genre(){}
+    public Genre(){}
 
-    public genre(String genreID, String genreName){
+    public Genre(String genreID, String genreName){
         this.genreID = genreID;
         this.genreName = genreName;
     }
