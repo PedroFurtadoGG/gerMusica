@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Gerenciador de Músicas</string>
-    <array name="genres">
+    <!--<array name="genres">
         <item>Rock</item>
         <item>Punk</item>
         <item>New Age</item>
         <item>Blues</item>
-    </array>
+    </array>-->
 </resources>
 

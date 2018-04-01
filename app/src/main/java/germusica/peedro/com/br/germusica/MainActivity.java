@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //spinner genero
+
         // definindo um listener para chamar a activity das tracks, quando
         // for clicado um artista na lista de artistas (listViewArtists)
         listViewArtists.setOnItemClickListener(new AdapterView.OnItemClickListener() {
