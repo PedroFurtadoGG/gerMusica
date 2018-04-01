@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddTrackActivity" />
-        <activity android:name=".AddGenreActivity"></activity>
+        <activity android:name=".AddGenreActivity" />
     </application>
 
 </manifest>

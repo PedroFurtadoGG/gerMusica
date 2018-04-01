@@ -36,7 +36,7 @@ public class AddTrackActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_track);
 
         // ligando as referências com as views na interface...
-        textViewArtistName = (TextView) findViewById(R.id.textViewGenreName);
+        textViewArtistName = (TextView) findViewById(R.id.textViewArtistName);
         editTextTrackName = (EditText) findViewById(R.id.editTextTrackName);
         seekBarRating = (SeekBar) findViewById(R.id.seekBarRating);
         buttonAddTrack = (Button) findViewById(R.id.buttonAddTrack);
