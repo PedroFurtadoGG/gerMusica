@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText editTextName;
     Button buttonAddArtist;
+    Button buttonGoG;
     Spinner spinnerGenres;
     ListView listViewArtists;
 
@@ -43,10 +44,19 @@ public class MainActivity extends AppCompatActivity {
 
         editTextName = (EditText) findViewById(R.id.editTextName);
         buttonAddArtist = (Button) findViewById(R.id.buttonAddArtist);
+        buttonGoG = (Button) findViewById(R.id.buttonGoG);
         spinnerGenres = (Spinner) findViewById(R.id.spinnerGenres);
         listViewArtists = (ListView) findViewById(R.id.listViewArtists);
 
         artistList = new ArrayList<>();
+
+        // chama tela de generos
+        buttonGoG.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, AddGenreActivity.class);
+                startActivity(it);
+            }
+        });
 
         buttonAddArtist.setOnClickListener( new View.OnClickListener() {
             @Override
